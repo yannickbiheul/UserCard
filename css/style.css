@@ -47,6 +47,38 @@ form {
     align-items: center;
 }
 
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.aide {
+    width: 350px;
+    height: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+.userProfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
 
 
 @media screen and (max-width: 1200px) {
