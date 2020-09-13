@@ -28,6 +28,12 @@ let resultAdresse = document.getElementById('resultAdresse');
 let regexEmail = /.+@.+\..+/;
 let regexAdresse = /[0-9][a-z]/;
 
+function recupId(nom, id) {
+    nom = document.getElementById(id);
+}
+recupId('essai', 'essai');
+essai.textContent = "COUCOU !";
+
 // Vérifications Prénom
 casePrenom.addEventListener('input', function(e) {
     userPrenom = e.target.value;
