@@ -26,7 +26,7 @@ let resultEmail = document.getElementById('resultEmail');
 let resultAdresse = document.getElementById('resultAdresse');
 // Variables regex
 let regexEmail = /.+@.+\..+/;
-let regexAdresse = /[0-9][a-z]/;
+let regexAdresse = /[0-9].+[a-z].+[0-9].+[a-z]/;
 
 function recupId(nom, id) {
     nom = document.getElementById(id);
